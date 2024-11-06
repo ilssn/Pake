@@ -27,7 +27,7 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
 export const DEFAULT_DEV_PAKE_OPTIONS: PakeCliOptions & { url: string } = {
   ...DEFAULT_PAKE_OPTIONS,
   url: 'https://all.302.ai/',
-  name: '302.AI',
+  name: '302AI',
   safeDomain: ['302.ai'],
   hideTitleBar: false,
 };
