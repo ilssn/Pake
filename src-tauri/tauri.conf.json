@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "WeRead",
+    "productName": "302AI",
     "version": "1.0.0"
   },
   "tauri": {
@@ -8,8 +8,10 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "weread.qq.com",
-          "windows": ["pake"],
+          "domain": "302.ai",
+          "windows": [
+            "pake"
+          ],
           "enableTauriAPI": true
         }
       ]
@@ -18,14 +20,16 @@
       "active": false
     },
     "systemTray": {
-      "iconPath": "png/icon_512.png",
+      "iconPath": "png/302ai.png",
       "iconAsTemplate": false
     },
     "allowlist": {
       "all": true,
       "fs": {
         "all": true,
-        "scope": ["$DOWNLOAD/*"]
+        "scope": [
+          "$DOWNLOAD/*"
+        ]
       }
     }
   },

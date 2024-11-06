@@ -1,9 +1,9 @@
 {
   "apps": [
     {
-      "name": "weread",
-      "title": "WeRead",
-      "name_zh": "微信阅读",
+      "name": "302ai",
+      "title": "302AI",
+      "name_zh": "302AI",
       "url": "https://all.302.ai/"
     }
   ]
