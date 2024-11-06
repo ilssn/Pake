@@ -1,9 +1,9 @@
 {
   "apps": [
     {
-      "name": "qwerty",
-      "title": "Qwerty",
-      "name_zh": "Qwerty",
+      "name": "ai",
+      "title": "Ai",
+      "name_zh": "Ai",
       "url": "https://all.302.ai/"
     }
   ]
