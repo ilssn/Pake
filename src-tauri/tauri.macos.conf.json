@@ -1,8 +1,10 @@
 {
   "tauri": {
     "bundle": {
-      "icon": ["icons/weread.icns"],
-      "identifier": "com.pake.weread",
+      "icon": [
+        "icons/302ai.icns"
+      ],
+      "identifier": "com.pake.302.ai",
       "active": true,
       "category": "DeveloperTool",
       "copyright": "",
@@ -17,7 +19,9 @@
       },
       "resources": [],
       "shortDescription": "",
-      "targets": ["dmg"]
+      "targets": [
+        "dmg"
+      ]
     }
   }
 }
