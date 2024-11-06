@@ -1,9 +1,9 @@
 {
   "apps": [
     {
-      "name": "weread",
-      "title": "WeRead",
-      "name_zh": "微信阅读",
+      "name": "qwerty",
+      "title": "Qwerty",
+      "name_zh": "Qwerty",
       "url": "https://all.302.ai/"
     }
   ]
