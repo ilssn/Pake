@@ -1,9 +1,9 @@
 {
   "windows": [
     {
+      "title": "302.AI全功能应用平台",
       "url": "https://all.302.ai/",
       "url_type": "web",
-      "title": "你好呀302.AI",
       "hide_title_bar": false,
       "fullscreen": false,
       "width": 1200,
