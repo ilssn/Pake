@@ -1,21 +1,9 @@
 {
   "apps": [
     {
-      "name": "youtubemusic",
-      "title": "YouTubeMusic",
-      "name_zh": "YouTubeMusic",
-      "url": "https://music.youtube.com/"
-    },
-    {
       "name": "weread",
       "title": "WeRead",
       "name_zh": "微信阅读",
-      "url": "https://weread.qq.com/"
-    },
-    {
-      "name": "302ai",
-      "title": "302AI",
-      "name_zh": "302AI",
       "url": "https://all.302.ai/"
     }
   ]
