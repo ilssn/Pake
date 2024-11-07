@@ -27,9 +27,10 @@ output
 *.AppImage
 *.dmg
 
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
 dist
 !dist/about_pake.html
 !dist/cli.js
