@@ -7,15 +7,15 @@
       "identifier": "ai.302.all",
       "active": true,
       "category": "DeveloperTool",
-      "copyright": "",
+      "copyright": "Copyright © 2023 302.AI",
       "externalBin": [],
       "longDescription": "",
       "macOS": {
-        "entitlements": null,
+        "entitlements": "./info.plist",
         "exceptionDomain": "",
         "frameworks": [],
-        "providerShortName": null,
-        "signingIdentity": null
+        "providerShortName": "2M9T9QTT55",
+        "signingIdentity": "2M9T9QTT55"
       },
       "resources": [],
       "shortDescription": "",

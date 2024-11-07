@@ -32,7 +32,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "npm run tauri dev",
-    "build": "npm run tauri build --release",
+    "build": "npm run tauri build --release ",
     "build:debug": "npm run tauri build -- --debug",
     "build:mac": "npm run tauri build -- --target universal-apple-darwin",
     "build:config": "chmod +x script/app_config.mjs && node script/app_config.mjs",
