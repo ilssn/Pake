@@ -14,8 +14,8 @@
         "entitlements": "./info.plist",
         "exceptionDomain": "",
         "frameworks": [],
-        "providerShortName": "2M9T9QTT55",
-        "signingIdentity": "2M9T9QTT55"
+        "providerShortName": null,
+        "signingIdentity": null
       },
       "resources": [],
       "shortDescription": "",
