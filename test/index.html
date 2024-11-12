@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parent Page</title>
+</head>
+
+<body>
+  <h1>This is the Parent Page</h1>
+  <iframe id="childFrame" src="child.html" width="600" height="400"></iframe>
+
+  <script>
+    // 监听来自子页面的消息
+    window.addEventListener("message", function (event) {
+      // 确认消息来源是可信的
+      // 假定子页面的源是 http://example-child.com
+      // console.log('ervent::', event)
+      if (event.origin === "http://localhost:5500" && event.data.type) {
+        console.log("Received message from child:", event.data.type);
+      }
+    }, false);
+
+  </script>
+</body>
+
+</html>

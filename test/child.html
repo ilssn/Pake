@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Child Page</title>
+</head>
+
+<body>
+  <h1>This is the Child Page</h1>
+  <button onclick="sendMessageToParent()">Send Message to Parent</button>
+
+  <script>
+    function sendMessageToParent() {
+      // 向父页面发送消息
+      // 假设父页面的源是 http://example-parent.com
+      var message = {
+        type: 'test',
+        title: "Hello from the child iframe!"
+
+      }
+      window.parent.postMessage(message, "*");
+    }
+
+  </script>
+</body>
+
+</html>

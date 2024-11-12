@@ -8,7 +8,21 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
+          "domain": "302.ai",
+          "windows": [
+            "pake"
+          ],
+          "enableTauriAPI": true
+        },
+        {
           "domain": "all.302.ai",
+          "windows": [
+            "pake"
+          ],
+          "enableTauriAPI": true
+        },
+        {
+          "domain": "news.302.ai",
           "windows": [
             "pake"
           ],

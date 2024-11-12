@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 和 JS 测试</title>
+</head>
+
+<body>
+  <h1>Iframe页面</h1>
+  <p>HTML 和 JavaScript 测试页面</p>
+
+  <section>
+    <h2>HTML a 链接测试</h2>
+    <!-- 默认情况点击链接在新页面中打开，是通过 target="_blank" 属性实现 -->
+    <p>1. a链接默认跳转新页面：</p>
+    <a href="./example.html">在新页面中打开示例网站</a>
+    <p>2. a链接默认跳转新窗口：</p>
+    <a href="./example.html" target="_blank">在新窗口中打开示例网站</a>
+
+    <section>
+      <h2>JavaScript 功能测试</h2>
+      <!-- 使用 JavaScript 跳转到新页面 -->
+      <p>4. 点击事件触发JS跳转新页面：</p>
+      <button onclick="location.href='./example.html';">跳转到示例网站</button>
+
+      <!-- 使用 JavaScript 打开新窗口 -->
+      <p>5. 点击事件触发JS打开新窗口：</p>
+      <button onclick="window.open('./example.html', '_blank', 'width=800,height=600')">在新窗口中打开示例网站</button>
+
+
+      <!-- 使用 JavaScript 下载文件 -->
+      <p>6. 点击事件触发JS下载文件：</p>
+      <button onclick="downloadFile('./302ai.ico', 'icon.ico');">下载图片</button>
+    </section>
+
+    <script>
+      function downloadFile(url, filename) {
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+
+    </script>
+</body>
+
+</html>

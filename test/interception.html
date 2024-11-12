@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iframe Link Interception</title>
+</head>
+
+<body>
+
+  <h1>主页面</h1>
+  <section>
+    <button style="font-size: 14px" onclick="window.location.reload()">刷新页面</button>
+    <button style="font-size: 14px" id="toggleButton" onclick="toggleInterception()">代理事件: 开</button>
+  </section>
+  <!-- <iframe id="myIframe" width="1200" height="780"
+    src="http://all.302.ai/home/?isDefaultTool=true&uid=MjAxNjA2&lang=zh-CN&hideTools=[]"></iframe> -->
+  <iframe id="myIframe" src="./iframe.html" width="1200" height="780"></iframe>
+
+  <script>
+    // 初始化拦截开关
+    let isInterception = true;
+    const iframe = document.getElementById('myIframe');
+
+    // 切换拦截状态
+    function toggleInterception() {
+      isInterception = !isInterception;
+      const status = isInterception ? "开" : "关";
+      document.getElementById('toggleButton').innerText = `代理事件: ${status}`;
+    }
+
+    iframe.onload = function () {
+      console.log('Iframe loaded');
+      const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+      console.log('Iframe document:', iframeDoc);
+
+      // 使用事件委托监听 a 标签点击事件
+      iframeDoc.addEventListener('click', function (event) {
+        // throw new Error("iframe")
+        const target = event.target;
+        if (!isInterception) return;
+
+        // 检查事件目标是否是一个 a 标签
+        if (target.tagName.toLowerCase() === 'a') {
+          const url = target.getAttribute('href');
+          const openNew = target.getAttribute('target');
+          // event.preventDefault(); // 阻止默认跳转事件
+
+          // 检测链接是否是下载行为
+          if (url.endsWith('.png') || url.endsWith('.ico') || target.getAttribute('download') !== null) {
+            handleFileDownload(url);
+          } else if (openNew) {
+            handleOpenNewWindow(url);
+          }
+        }
+      });
+    };
+
+    function handleFileDownload(url) {
+      // 在这里处理文件下载逻辑
+      console.log('File download intercepted:', url);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = ''; // 设置下载属性
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    function handleOpenNewWindow(url) {
+      // 在这里处理打开新窗口逻辑
+      console.log('New window opened for:', url);
+      window.open(url, '_blank');
+    }
+
+  </script>
+
+</body>
+
+</html>
