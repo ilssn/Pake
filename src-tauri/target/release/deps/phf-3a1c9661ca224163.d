@@ -1,0 +1,11 @@
+/Users/lijunqin/work/adswave/project/302ai/Pake/src-tauri/target/release/deps/libphf-3a1c9661ca224163.rmeta: /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/lib.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/map.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/ordered_map.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/ordered_set.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/set.rs
+
+/Users/lijunqin/work/adswave/project/302ai/Pake/src-tauri/target/release/deps/libphf-3a1c9661ca224163.rlib: /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/lib.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/map.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/ordered_map.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/ordered_set.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/set.rs
+
+/Users/lijunqin/work/adswave/project/302ai/Pake/src-tauri/target/release/deps/phf-3a1c9661ca224163.d: /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/lib.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/map.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/ordered_map.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/ordered_set.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/set.rs
+
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/lib.rs:
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/map.rs:
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/ordered_map.rs:
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/ordered_set.rs:
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/phf-0.10.1/src/set.rs:

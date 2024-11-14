@@ -1,0 +1,11 @@
+/Users/lijunqin/work/adswave/project/302ai/Pake/src-tauri/target/release/deps/libxattr-ab02ec39ad57ab6e.rmeta: /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/lib.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/error.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/sys/mod.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/util.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/sys/linux_macos.rs
+
+/Users/lijunqin/work/adswave/project/302ai/Pake/src-tauri/target/release/deps/libxattr-ab02ec39ad57ab6e.rlib: /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/lib.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/error.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/sys/mod.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/util.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/sys/linux_macos.rs
+
+/Users/lijunqin/work/adswave/project/302ai/Pake/src-tauri/target/release/deps/xattr-ab02ec39ad57ab6e.d: /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/lib.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/error.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/sys/mod.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/util.rs /Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/sys/linux_macos.rs
+
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/lib.rs:
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/error.rs:
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/sys/mod.rs:
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/util.rs:
+/Users/lijunqin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.3.1/src/sys/linux_macos.rs:
