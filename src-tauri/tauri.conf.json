@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "302.AI",
+    "productName": "302-AI",
     "version": "1.0.0"
   },
   "tauri": {
@@ -8,21 +8,21 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "302.ai",
+          "domain": "302ai.cn",
           "windows": [
             "pake"
           ],
           "enableTauriAPI": true
         },
         {
-          "domain": "all.302.ai",
+          "domain": "all.302ai.cn",
           "windows": [
             "pake"
           ],
           "enableTauriAPI": true
         },
         {
-          "domain": "news.302.ai",
+          "domain": "news.302ai.cn",
           "windows": [
             "pake"
           ],

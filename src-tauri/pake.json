@@ -2,7 +2,7 @@
   "windows": [
     {
       "title": "302.AI全功能应用平台",
-      "url": "https://all.302.ai/?desktop=true#/",
+      "url": "https://redirect-client.302ai.cn/auth",
       "url_type": "web",
       "hide_title_bar": false,
       "fullscreen": false,
